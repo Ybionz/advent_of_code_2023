@@ -147,8 +147,8 @@ fn find_numbers_and_simbols() -> (Vec<Number>, Vec<Symbol>) {
                         col,
                     );
                 }
-                '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' => {
-                    is_current_number = true;
+                '0'..='9' => {
+                    is_current_number = true;  
                     current_value = current_value * 10 + x.to_digit(10).unwrap() as usize
                 }
                 _ => {
