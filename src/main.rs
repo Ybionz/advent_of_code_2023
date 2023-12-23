@@ -1,0 +1,12 @@
+mod advent_of_code_1;
+mod advent_of_code_2;
+mod advent_of_code_3;
+
+fn main() {
+    advent_of_code_1::advent_of_code_1_1();
+    advent_of_code_1::advent_of_code_1_2();
+    advent_of_code_2::advent_of_code_2_1();
+    advent_of_code_2::advent_of_code_2_2();
+    advent_of_code_3::advent_of_code_3_1();
+    advent_of_code_3::advent_of_code_3_2();
+}
