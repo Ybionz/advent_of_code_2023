@@ -78,7 +78,7 @@ pub fn advent_of_code_5_1() {
 }
 
 pub fn advent_of_code_5_2() {
-    println!("Advent of Code 5_2: {}","test");
+    println!("Advent of Code 5_2: {}","testing");
 }
 
 fn map_seeds(seeds: Vec<i64>, map_sets: Vec<MapSet>) -> Vec<i64>{
