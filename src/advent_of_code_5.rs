@@ -77,6 +77,8 @@ pub fn advent_of_code_5_1() {
     println!("Advent of Code 5_1: {}", translated_seeds.into_iter().min().unwrap());
 }
 
+pub fn advent_of_code_5_2() {}
+
 fn map_seeds(seeds: Vec<i64>, map_sets: Vec<MapSet>) -> Vec<i64>{
     let mut seeds = seeds;
     for map_set in map_sets {
